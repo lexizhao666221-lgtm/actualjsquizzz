@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href = "quiz_style.css" rel = "stylesheet" type = "text/css">
+        <script src="script.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Human Body Quiz</title>
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Information</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+
+        <h1 class="quiz">Quiz</h1>
+        <h2>This is the human body quiz. To continue, scroll down and answer the following questions accordingly. When finished, click the "Finish" button to get your final score.</h2>
+        <h3>Try your best !</h3>
+
+        <hr style="border: none; border-top: 3px solid rgb(224, 191, 191); margin-top: 150px; margin-bottom: 80px;">
+
+        <p>Hi there! What is your name?</p>
+        <input id="namee">
+        <button id="buttonforname">Enter</button>
+        <p id="ohhhi">Good luck <span id="egname"></span>! </p>
+       
+        <p>Question 1. What is the largest and strongest bone in the body?</p>
+        <select class="q" id="q1">
+            <option value="0" name="q1">The mandible</option>
+            <option value="0" name="q1">The humerus</option>
+            <option value="1" name="q1">The femur</option>
+            <option value="0" name="q1">The tibia</option>
+        </select>
+
+        <p>Question 2. How many bones are there in an adult human body? (Please enter an integer number between 170 and 210)</p>
+        <input class="q" id="q2">
+
+        <p>Question 3. What is the main part of the brain that stores memories?</p>
+        <div class="radio-group">
+        <input class="q" id="q3" type="radio" value="0" name="q3">
+        <label for="cerebrum">The cerebrum</label>
+        <input class="q" type="radio" value="0" name="q3">
+        <label for="cortex">The cortex</label>
+        <input class="q" type="radio" value="0" name="q3">
+        <label for="amygdala">The amygdala</label>
+        <input class="q" type="radio" value="1" name="q3">
+        <label for="hippocampus">The hippocampus</label>
+        </div>
+
+        <p>Question 4. What is the fuction of red blood cells?</p>
+        <select class="q" id="q4">
+            <option value="transportanddeliver">To transport and deliver nutrients and oxygen around the body.</option>
+            <option value="transportingliquidwaste">Transporting liquid waste and hormones throughout the body.</option>
+            <option value="fightinfections">To fight infections like pathogens to defend the body.</option>
+            <option value="regulatingbodytemp">Regulating body temperature by circulating around the body everyday.</option>
+        </select>
+
+        <p>Question 5. What is the primary physiological function of the gallbladder?</p>
+        <div class="radio-group">
+        <input class="q" id="q5" type="radio" value="0" name="q5">
+        <label for="q5o1">It breaks down waste products before transferring them into the bladder.</label>
+        <input class="q" type="radio" value="0" name="q5">
+        <label for="q5o2">It breaks down waste products before transferring them into the bladder.</label>
+        <input class="q" type="radio" value="0" name="q5">
+        <label for="q5o3">It filters toxic waste products out of the blood and sends them to the bladder.</label>
+        <input class="q" type="radio" value="1" name="q5">
+        <label for="q5o4">It manufactures and secretes bile to chemically break down proteins.</label>
+        </div>
+
+        <p>Question 6. What is the main difference between the functions of the small intestine and the large intestine?</p>
+        <select class="q" id="q6">
+            <option value="q6o1">The small intestine absorbs most of the nutrients from your food, while the large intestine absorbs water and solidifies waste.</option>
+            <option value="q6o2">The small intestine filters toxic cellular waste from the blood, while the large intestine stores solid food waste.</option>
+            <option value="q6o3">There are no differences as they both carry out the same function of absorption and excretion.</option>
+            <option value="q6o4">The small intestine uses a high concentration of hydrochloric acid to dissolve proteins, while the large intestine uses other fluids to neutralize that acid.</option>
+        </select>
+       
+        <p>Question 7. How many pairs of chromosomes does a healthy human have? Please enter an integer between 0 to 30.</p>
+        <input class="q" id="q7">
+
+        <p>Question 8. What are the two features that can both be inherited from your parents or ancestors?</p>
+        <div class="radio-group">
+        <input class="q" id="q8" type="radio" value="0" name="q8">
+        <label for="q8o1">Fingerprints, handedness</label>
+        <input class="q" type="radio" value="0" name="q8">
+        <label for="q8o2">Personality, food preferences</label>
+        <input class="q" type="radio" value="0" name="q8">
+        <label for="q8o3">Phobias, motion sickness</label>
+        <input class="q" type="radio" value="1" name="q8">
+        <label for="q8o4">Sleeping quality, lifespan</label>
+        </div>
+
+        <p>Question 9. What is the precise biological difference between a "twin" and a "clone"?</p>
+        <select class="q" id="q9">
+            <option value="q9o1">Clones are cooler.</option>
+            <option value="q9o2">Twins do not have the exact chromosomes inherited but clones do.</option>
+            <option value="q9o3">Twins have their own personalities, but a clone will automatically have the exact same memories, fears, and skills as the person they were copied from.</option>
+            <option value="q9o4">There are no differences.</option>
+        </select>
+        <br><br>
+        <button id="finalbutton"type="button" onclick="checkScore()">Submit</button>
+
+        <hr style="border: none; border-top: 3px solid rgb(224, 191, 191); margin-top: 80px;">
+
+    </body>
+</html>

@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Matemasie);
+@import url(https://fonts.googleapis.com/css?family=Elms+Sans);
+@import url(https://fonts.googleapis.com/css?family=Average+Sans);
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding:0px;
+    background-color: rgb(255, 231, 243);
+    overflow: hidden;
+    margin:0px;
+    text-align: right;
+}
+
+.navbar{
+    background-color: rgb(255, 227, 240);
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.navbar img{
+    display: inline-block;
+    vertical-align: middle;
+    height: 80px;
+    margin-top: 5px;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Elms Sans';
+    font-weight: bold;
+    color: rgb(82, 70, 60);
+    display: inline-block;
+    padding: 25px;    
+    vertical-align: middle;
+}
+
+.navbar a:hover{
+    background-color: rgb(255, 199, 218);
+    border-radius: 8px;
+}
+
+h1{
+    font-family: 'Matemasie';
+    color: rgb(80, 67, 56);
+    line-height:-20px ;
+    text-align: left;
+    line-height:130px;
+    padding-left: 40px;
+    margin-top: none;
+    margin-bottom:none;
+    font-size: 100px;
+}
+
+h2{
+    font-family: 'Elms Sans';
+    color: rgb(107, 91, 76);
+    font-size:50px;
+    padding-left: 40px;
+    margin-top: -50px;
+}
+
+h3{
+    font-family:'Average Sans' ;
+    font-size:20px ;
+    color: rgb(51, 44, 37);
+    padding-left: 40px;
+    width: 70%;
+    margin-top: -35px;
+}
+
+.sources{
+    text-align: center;
+}
+
+.header-row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  padding-left: 200px;
+  padding-right: 220px;
+}
+
+.sources1{
+    display: flex;
+    font-family: "Average Sans";
+    font-size: 30px;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.sources2{
+    display: flex;
+    font-family: "Average Sans";
+    font-size: 30px;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.sources3{
+    display: flex;
+    font-family: "Average Sans";
+    font-size: 30px;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+footer{
+    padding-left: 30px;
+}
+
+.prettystar{
+    display: flex;
+    justify-content: space-between;
+}
